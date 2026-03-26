@@ -1,0 +1,35 @@
+:root {
+  color-scheme: light;
+  font-family: 'Segoe UI', system-ui, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #ffffff;
+  color: #222;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+}
+
+#root {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  min-height: 100vh;
+  text-align: left;
+  background-color: #ffffff;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+  color: #111;
+}
+
+p {
+  margin: 0;
+}

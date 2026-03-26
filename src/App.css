@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #222;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: 4px;
+  margin-bottom: 36px;
+  color: #111;
+}
+
+/* Top row: Personal (left) + Education (right) */
+.top-row {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.top-row>* {
+  flex: 1;
+}
+
+/* Project details: centred below */
+.project-row {
+  display: flex;
+  justify-content: center;
+}
+
+.project-row>* {
+  width: 100%;
+  max-width: 600px;
+}
+
+.card {
+  padding: 24px 28px;
+}
+
+.card h2 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 14px;
+  color: #111;
+  padding-bottom: 8px;
+  text-align: center;
+}
+
+.card p,
+.card li {
+  font-size: 0.95rem;
+  color: #444;
+  margin-bottom: 6px;
+  line-height: 1.6;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 4px;
+}
+
+.card ul li {
+  padding: 4px 0;
+}
+
+.card ul li:last-child {
+  border-bottom: none;
+}
+
+.card a {
+  color: #1a73e8;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+  .top-row {
+    flex-direction: column;
+  }
+}
