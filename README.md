@@ -71,3 +71,6 @@ export default defineConfig([
   },
 ])
 ```
+## Output
+
+![Project Output](./assets/screenshot.png)
